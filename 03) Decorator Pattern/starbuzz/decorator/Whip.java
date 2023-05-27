@@ -8,6 +8,6 @@ public class Whip extends CondimentDecorator {
 	}
  
 	public double cost() {
-		return .10 + beverage.cost();
+		return beverage.cost() + .10;
 	}
 }
